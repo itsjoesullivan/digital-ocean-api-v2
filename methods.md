@@ -1,18 +1,23 @@
+
 ###account
+
 ###actions
 - [listAllActions](https://developers.digitalocean.com/documentation/v2#list-all-actions)
 - [retrieveExistingAction](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-action)
+
 ###domains
 - [listAllDomains](https://developers.digitalocean.com/documentation/v2#list-all-domains)
 - [createNewDomain](https://developers.digitalocean.com/documentation/v2#create-a-new-domain)
 - [retrieveExistingDomain](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-domain)
 - [deleteDomain](https://developers.digitalocean.com/documentation/v2#delete-a-domain)
+
 ###domainRecords
 - [listAllDomainRecords](https://developers.digitalocean.com/documentation/v2#list-all-domain-records)
 - [createNewDomainRecord](https://developers.digitalocean.com/documentation/v2#create-a-new-domain-record)
 - [retrieveExistingDomainRecord](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-domain-record)
 - [updateDomainRecord](https://developers.digitalocean.com/documentation/v2#update-a-domain-record)
 - [deleteDomainRecord](https://developers.digitalocean.com/documentation/v2#delete-a-domain-record)
+
 ###droplets
 - [createNewDroplet](https://developers.digitalocean.com/documentation/v2#create-a-new-droplet)
 - [createMultipleDroplets](https://developers.digitalocean.com/documentation/v2#create-multiple-droplets)
@@ -26,6 +31,7 @@
 - [listNeighborsForDroplet](https://developers.digitalocean.com/documentation/v2#list-neighbors-for-a-droplet)
 - [listAllDropletNeighbors](https://developers.digitalocean.com/documentation/v2#list-all-droplet-neighbors)
 - [listDropletUpgrades](https://developers.digitalocean.com/documentation/v2#list-droplet-upgrades)
+
 ###dropletActions
 - [enableBackups](https://developers.digitalocean.com/documentation/v2#enable-backups)
 - [disableBackups](https://developers.digitalocean.com/documentation/v2#disable-backups)
@@ -45,6 +51,7 @@
 - [snapshotDroplet](https://developers.digitalocean.com/documentation/v2#snapshot-a-droplet)
 - [upgradeDroplet](https://developers.digitalocean.com/documentation/v2#upgrade-a-droplet)
 - [retrieveDropletAction](https://developers.digitalocean.com/documentation/v2#retrieve-a-droplet-action)
+
 ###images
 - [listAllImages](https://developers.digitalocean.com/documentation/v2#list-all-images)
 - [retrieveExistingImageById](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-image-by-id)
@@ -52,26 +59,32 @@
 - [listAllActionsForImage](https://developers.digitalocean.com/documentation/v2#list-all-actions-for-an-image)
 - [updateImage](https://developers.digitalocean.com/documentation/v2#update-an-image)
 - [deleteImage](https://developers.digitalocean.com/documentation/v2#delete-an-image)
+
 ###imageActions
 - [transferImage](https://developers.digitalocean.com/documentation/v2#transfer-an-image)
 - [convertImageToSnapshot](https://developers.digitalocean.com/documentation/v2#convert-an-image-to-a-snapshot)
 - [retrieveExistingImageAction](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-image-action)
+
 ###sshKeys
 - [listAllKeys](https://developers.digitalocean.com/documentation/v2#list-all-keys)
 - [createNewKey](https://developers.digitalocean.com/documentation/v2#create-a-new-key)
 - [retrieveExistingKey](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-key)
 - [updateKey](https://developers.digitalocean.com/documentation/v2#update-a-key)
 - [destroyKey](https://developers.digitalocean.com/documentation/v2#destroy-a-key)
+
 ###regions
 - [listAllRegions](https://developers.digitalocean.com/documentation/v2#list-all-regions)
+
 ###sizes
 - [listAllSizes](https://developers.digitalocean.com/documentation/v2#list-all-sizes)
+
 ###floatingIps
 - [listAllFloatingIps](https://developers.digitalocean.com/documentation/v2#list-all-floating-ips)
 - [createNewFloatingIpAssignedToDroplet](https://developers.digitalocean.com/documentation/v2#create-a-new-floating-ip-assigned-to-a-droplet)
 - [createNewFloatingIpReservedToRegion](https://developers.digitalocean.com/documentation/v2#create-a-new-floating-ip-reserved-to-a-region)
 - [retrieveExistingFloatingIp](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-floating-ip)
 - [deleteFloatingIps](https://developers.digitalocean.com/documentation/v2#delete-a-floating-ips)
+
 ###floatingIpActions
 - [assignFloatingIpToDroplet](https://developers.digitalocean.com/documentation/v2#assign-a-floating-ip-to-a-droplet)
 - [unassignFloatingIp](https://developers.digitalocean.com/documentation/v2#unassign-a-floating-ip)
