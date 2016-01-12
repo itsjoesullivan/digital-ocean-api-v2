@@ -610,7 +610,7 @@
         }
       },
       {
-        "name": "enableIpv6",
+        "name": "enableIPv6",
         "path": "/v2/droplets/$DROPLET_ID/actions",
         "method": "POST",
         "requiredResourceIdCount": 1,
@@ -886,10 +886,10 @@
     ]
   },
   {
-    "name": "floatingIps",
+    "name": "floatingIPs",
     "items": [
       {
-        "name": "listAllFloatingIps",
+        "name": "listAllFloatingIPs",
         "path": "/v2/floating_ips",
         "method": "GET",
         "requiredResourceIdCount": 0,
@@ -897,7 +897,7 @@
         "staticProperties": {}
       },
       {
-        "name": "createNewFloatingIpAssignedToDroplet",
+        "name": "createNewFloatingIPAssignedToDroplet",
         "path": "/v2/floating_ips",
         "method": "POST",
         "requiredResourceIdCount": 0,
@@ -911,7 +911,7 @@
         "staticProperties": {}
       },
       {
-        "name": "createNewFloatingIpReservedToRegion",
+        "name": "createNewFloatingIPReservedToRegion",
         "path": "/v2/floating_ips",
         "method": "POST",
         "requiredResourceIdCount": 0,
@@ -925,7 +925,7 @@
         "staticProperties": {}
       },
       {
-        "name": "retrieveExistingFloatingIp",
+        "name": "retrieveExistingFloatingIP",
         "path": "/v2/floating_ips/$FLOATING_IP_ADDR",
         "method": "GET",
         "requiredResourceIdCount": 1,
@@ -933,7 +933,7 @@
         "staticProperties": {}
       },
       {
-        "name": "deleteFloatingIps",
+        "name": "deleteFloatingIPs",
         "path": "/v2/floating_ips/$FLOATING_IP_ADDR",
         "method": "DELETE",
         "requiredResourceIdCount": 1,
@@ -943,10 +943,10 @@
     ]
   },
   {
-    "name": "floatingIpActions",
+    "name": "floatingIPActions",
     "items": [
       {
-        "name": "assignFloatingIpToDroplet",
+        "name": "assignFloatingIPToDroplet",
         "path": "/v2/floating_ips/$FLOATING_IP_ADDR/actions",
         "method": "POST",
         "requiredResourceIdCount": 1,
@@ -954,7 +954,7 @@
         "staticProperties": {}
       },
       {
-        "name": "unassignFloatingIp",
+        "name": "unassignFloatingIP",
         "path": "/v2/floating_ips/$FLOATING_IP_ADDR/actions",
         "method": "POST",
         "requiredResourceIdCount": 1,
@@ -962,7 +962,7 @@
         "staticProperties": {}
       },
       {
-        "name": "listAllActionsForFloatingIp",
+        "name": "listAllActionsForFloatingIP",
         "path": "/v2/floating_ips/$FLOATING_IP/actions",
         "method": "GET",
         "requiredResourceIdCount": 1,
@@ -970,7 +970,7 @@
         "staticProperties": {}
       },
       {
-        "name": "retrieveExistingFloatingIpAction",
+        "name": "retrieveExistingFloatingIPAction",
         "path": "/v2/floating_ips/$FLOATING_IP/actions/$ACTION_ID",
         "method": "GET",
         "requiredResourceIdCount": 2,

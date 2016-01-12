@@ -116,9 +116,9 @@
 - [changeKernel](https://developers.digitalocean.com/documentation/v2#change-the-kernel)
 
 `api.dropletActions.changeKernel(dropletId, options)`
-- [enableIpv6](https://developers.digitalocean.com/documentation/v2#enable-ipv6)
+- [enableIPv6](https://developers.digitalocean.com/documentation/v2#enable-ipv6)
 
-`api.dropletActions.enableIpv6(dropletId, options)`
+`api.dropletActions.enableIPv6(dropletId, options)`
 - [enablePrivateNetworking](https://developers.digitalocean.com/documentation/v2#enable-private-networking)
 
 `api.dropletActions.enablePrivateNetworking(dropletId, options)`
@@ -190,33 +190,33 @@
 
 `api.sizes.listAllSizes(options)`
 
-###floatingIps
-- [listAllFloatingIps](https://developers.digitalocean.com/documentation/v2#list-all-floating-ips)
+###floatingIPs
+- [listAllFloatingIPs](https://developers.digitalocean.com/documentation/v2#list-all-floating-ips)
 
-`api.floatingIps.listAllFloatingIps(options)`
-- [createNewFloatingIpAssignedToDroplet](https://developers.digitalocean.com/documentation/v2#create-a-new-floating-ip-assigned-to-a-droplet)
+`api.floatingIPs.listAllFloatingIPs(options)`
+- [createNewFloatingIPAssignedToDroplet](https://developers.digitalocean.com/documentation/v2#create-a-new-floating-ip-assigned-to-a-droplet)
 
-`api.floatingIps.createNewFloatingIpAssignedToDroplet(options)`
-- [createNewFloatingIpReservedToRegion](https://developers.digitalocean.com/documentation/v2#create-a-new-floating-ip-reserved-to-a-region)
+`api.floatingIPs.createNewFloatingIPAssignedToDroplet(options)`
+- [createNewFloatingIPReservedToRegion](https://developers.digitalocean.com/documentation/v2#create-a-new-floating-ip-reserved-to-a-region)
 
-`api.floatingIps.createNewFloatingIpReservedToRegion(options)`
-- [retrieveExistingFloatingIp](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-floating-ip)
+`api.floatingIPs.createNewFloatingIPReservedToRegion(options)`
+- [retrieveExistingFloatingIP](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-floating-ip)
 
-`api.floatingIps.retrieveExistingFloatingIp(floatingIpAddr, options)`
-- [deleteFloatingIps](https://developers.digitalocean.com/documentation/v2#delete-a-floating-ips)
+`api.floatingIPs.retrieveExistingFloatingIP(floatingIpAddr, options)`
+- [deleteFloatingIPs](https://developers.digitalocean.com/documentation/v2#delete-a-floating-ips)
 
-`api.floatingIps.deleteFloatingIps(floatingIpAddr, options)`
+`api.floatingIPs.deleteFloatingIPs(floatingIpAddr, options)`
 
-###floatingIpActions
-- [assignFloatingIpToDroplet](https://developers.digitalocean.com/documentation/v2#assign-a-floating-ip-to-a-droplet)
+###floatingIPActions
+- [assignFloatingIPToDroplet](https://developers.digitalocean.com/documentation/v2#assign-a-floating-ip-to-a-droplet)
 
-`api.floatingIpActions.assignFloatingIpToDroplet(floatingIpAddr, options)`
-- [unassignFloatingIp](https://developers.digitalocean.com/documentation/v2#unassign-a-floating-ip)
+`api.floatingIPActions.assignFloatingIPToDroplet(floatingIpAddr, options)`
+- [unassignFloatingIP](https://developers.digitalocean.com/documentation/v2#unassign-a-floating-ip)
 
-`api.floatingIpActions.unassignFloatingIp(floatingIpAddr, options)`
-- [listAllActionsForFloatingIp](https://developers.digitalocean.com/documentation/v2#list-all-actions-for-a-floating-ip)
+`api.floatingIPActions.unassignFloatingIP(floatingIpAddr, options)`
+- [listAllActionsForFloatingIP](https://developers.digitalocean.com/documentation/v2#list-all-actions-for-a-floating-ip)
 
-`api.floatingIpActions.listAllActionsForFloatingIp(floatingIp, options)`
-- [retrieveExistingFloatingIpAction](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-floating-ip-action)
+`api.floatingIPActions.listAllActionsForFloatingIP(floatingIp, options)`
+- [retrieveExistingFloatingIPAction](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-floating-ip-action)
 
-`api.floatingIpActions.retrieveExistingFloatingIpAction(floatingIp, actionId, options)`
+`api.floatingIPActions.retrieveExistingFloatingIPAction(floatingIp, actionId, options)`
