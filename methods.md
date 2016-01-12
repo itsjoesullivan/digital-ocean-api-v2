@@ -1,6 +1,4 @@
 
-###account
-
 ###actions
 - [listAllActions](https://developers.digitalocean.com/documentation/v2#list-all-actions)
 - [retrieveExistingAction](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-action)
