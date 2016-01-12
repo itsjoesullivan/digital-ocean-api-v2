@@ -1,14 +1,16 @@
 var methodCategories = require('./parsed-schema');
 var factory = require('./lib/factory');
+var Helper = require('./lib/util/helper');
 
-var api = module.exports = {};
-
-/*
-   populate api object
-*/
-methodCategories.forEach(function(methodCategory) {
-  api[methodCategory.name] = {};
-  methodCategory.items.forEach(function(method) {
-    api[methodCategory.name][method.name] = factory(method);
-  });
-});
+var API = module.exports = function(token) {
+  var helper = Helper(token);
+  /*
+     populate api object
+  */
+  methodCategories.forEach(function(methodCategory) {
+    this[methodCategory.name] = {};
+    methodCategory.items.forEach(function(method) {
+      this[methodCategory.name][method.name] = factory(method, helper);
+    }.bind(this));
+  }.bind(this));
+};
