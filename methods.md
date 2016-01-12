@@ -203,9 +203,9 @@
 - [retrieveExistingFloatingIP](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-floating-ip)
 
 `api.floatingIPs.retrieveExistingFloatingIP(floatingIpAddr, options)`
-- [deleteFloatingIPs](https://developers.digitalocean.com/documentation/v2#delete-a-floating-ips)
+- [deleteFloatingIP](https://developers.digitalocean.com/documentation/v2#delete-a-floating-ips)
 
-`api.floatingIPs.deleteFloatingIPs(floatingIpAddr, options)`
+`api.floatingIPs.deleteFloatingIP(floatingIpAddr, options)`
 
 ###floatingIPActions
 - [assignFloatingIPToDroplet](https://developers.digitalocean.com/documentation/v2#assign-a-floating-ip-to-a-droplet)

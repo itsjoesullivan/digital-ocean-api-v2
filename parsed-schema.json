@@ -933,7 +933,7 @@
         "staticProperties": {}
       },
       {
-        "name": "deleteFloatingIPs",
+        "name": "deleteFloatingIP",
         "path": "/v2/floating_ips/$FLOATING_IP_ADDR",
         "method": "DELETE",
         "requiredResourceIdCount": 1,
