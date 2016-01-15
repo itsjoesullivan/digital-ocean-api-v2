@@ -40,12 +40,12 @@
           {
             "name": "name",
             "type": "string",
-            "required": false
+            "required": true
           },
           {
             "name": "ip_address",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {}
@@ -187,22 +187,22 @@
           {
             "name": "name",
             "type": "String",
-            "required": false
+            "required": true
           },
           {
             "name": "region",
             "type": "String",
-            "required": false
+            "required": true
           },
           {
             "name": "size",
             "type": "String",
-            "required": false
+            "required": true
           },
           {
             "name": "image",
             "type": "number (if using an image ID), or String (if using a public image slug)",
-            "required": false
+            "required": true
           },
           {
             "name": "ssh_keys",
@@ -241,22 +241,22 @@
           {
             "name": "names",
             "type": "Array",
-            "required": false
+            "required": true
           },
           {
             "name": "region",
             "type": "String",
-            "required": false
+            "required": true
           },
           {
             "name": "size",
             "type": "String",
-            "required": false
+            "required": true
           },
           {
             "name": "image",
             "type": "number (if using an image ID), or String (if using a public image slug)",
-            "required": false
+            "required": true
           },
           {
             "name": "ssh_keys",
@@ -380,7 +380,7 @@
           {
             "name": "type",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -396,7 +396,7 @@
           {
             "name": "type",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -412,7 +412,7 @@
           {
             "name": "type",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -428,7 +428,7 @@
           {
             "name": "type",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -444,7 +444,7 @@
           {
             "name": "type",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -460,7 +460,7 @@
           {
             "name": "type",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -476,7 +476,7 @@
           {
             "name": "type",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -492,12 +492,12 @@
           {
             "name": "type",
             "type": "string",
-            "required": false
+            "required": true
           },
           {
             "name": "image",
             "type": "string if an image slug. number if an image ID.",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -513,7 +513,7 @@
           {
             "name": "type",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -529,7 +529,7 @@
           {
             "name": "type",
             "type": "string",
-            "required": false
+            "required": true
           },
           {
             "name": "disk",
@@ -539,7 +539,7 @@
           {
             "name": "size",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -555,12 +555,12 @@
           {
             "name": "type",
             "type": "string",
-            "required": false
+            "required": true
           },
           {
             "name": "image",
             "type": "string if an image slug. number if an image ID.",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -576,12 +576,12 @@
           {
             "name": "type",
             "type": "string",
-            "required": false
+            "required": true
           },
           {
             "name": "name",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -597,12 +597,12 @@
           {
             "name": "type",
             "type": "string",
-            "required": false
+            "required": true
           },
           {
             "name": "kernel",
             "type": "number",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -618,7 +618,7 @@
           {
             "name": "type",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -634,7 +634,7 @@
           {
             "name": "type",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -650,12 +650,12 @@
           {
             "name": "type",
             "type": "string",
-            "required": false
+            "required": true
           },
           {
             "name": "name",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -671,7 +671,7 @@
           {
             "name": "upgrade",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -732,7 +732,7 @@
           {
             "name": "name",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {}
@@ -759,12 +759,12 @@
           {
             "name": "type",
             "type": "string",
-            "required": false
+            "required": true
           },
           {
             "name": "region",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -780,7 +780,7 @@
           {
             "name": "type",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {
@@ -817,12 +817,12 @@
           {
             "name": "name",
             "type": "string",
-            "required": false
+            "required": true
           },
           {
             "name": "public_key",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {}
@@ -844,7 +844,7 @@
           {
             "name": "name",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {}
@@ -905,7 +905,7 @@
           {
             "name": "droplet_id",
             "type": "int",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {}
@@ -919,7 +919,7 @@
           {
             "name": "region",
             "type": "string",
-            "required": false
+            "required": true
           }
         ],
         "staticProperties": {}
