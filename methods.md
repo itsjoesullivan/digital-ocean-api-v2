@@ -5,7 +5,7 @@
 `api.actions.listAllActions(options)`
 - [retrieveExistingAction](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-action)
 
-`api.actions.retrieveExistingAction(actionId, options)`
+`api.actions.retrieveExistingAction(actionId)`
 
 ###domains
 - [listAllDomains](https://developers.digitalocean.com/documentation/v2#list-all-domains)
@@ -16,27 +16,27 @@
 `api.domains.createNewDomain(options)`
 - [retrieveExistingDomain](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-domain)
 
-`api.domains.retrieveExistingDomain(domainName, options)`
+`api.domains.retrieveExistingDomain(domainName)`
 - [deleteDomain](https://developers.digitalocean.com/documentation/v2#delete-a-domain)
 
-`api.domains.deleteDomain(domainName, options)`
+`api.domains.deleteDomain(domainName)`
 
 ###domainRecords
 - [listAllDomainRecords](https://developers.digitalocean.com/documentation/v2#list-all-domain-records)
 
-`api.domainRecords.listAllDomainRecords(domainName, options)`
+`api.domainRecords.listAllDomainRecords(domainName)`
 - [createNewDomainRecord](https://developers.digitalocean.com/documentation/v2#create-a-new-domain-record)
 
 `api.domainRecords.createNewDomainRecord(domainName, options)`
 - [retrieveExistingDomainRecord](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-domain-record)
 
-`api.domainRecords.retrieveExistingDomainRecord(domainName, recordId, options)`
+`api.domainRecords.retrieveExistingDomainRecord(domainName, recordId)`
 - [updateDomainRecord](https://developers.digitalocean.com/documentation/v2#update-a-domain-record)
 
 `api.domainRecords.updateDomainRecord(domainName, recordId, options)`
 - [deleteDomainRecord](https://developers.digitalocean.com/documentation/v2#delete-a-domain-record)
 
-`api.domainRecords.deleteDomainRecord(domainName, recordId, options)`
+`api.domainRecords.deleteDomainRecord(domainName, recordId)`
 
 ###droplets
 - [createNewDroplet](https://developers.digitalocean.com/documentation/v2#create-a-new-droplet)
@@ -47,25 +47,25 @@
 `api.droplets.createMultipleDroplets(options)`
 - [retrieveExistingDropletById](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-droplet-by-id)
 
-`api.droplets.retrieveExistingDropletById(dropletId, options)`
+`api.droplets.retrieveExistingDropletById(dropletId)`
 - [listAllDroplets](https://developers.digitalocean.com/documentation/v2#list-all-droplets)
 
 `api.droplets.listAllDroplets(options)`
 - [listAllAvailableKernelsForDroplet](https://developers.digitalocean.com/documentation/v2#list-all-available-kernels-for-a-droplet)
 
-`api.droplets.listAllAvailableKernelsForDroplet(dropletId, options)`
+`api.droplets.listAllAvailableKernelsForDroplet(dropletId)`
 - [listSnapshotsForDroplet](https://developers.digitalocean.com/documentation/v2#list-snapshots-for-a-droplet)
 
-`api.droplets.listSnapshotsForDroplet(dropletId, options)`
+`api.droplets.listSnapshotsForDroplet(dropletId)`
 - [listBackupsForDroplet](https://developers.digitalocean.com/documentation/v2#list-backups-for-a-droplet)
 
-`api.droplets.listBackupsForDroplet(dropletId, options)`
+`api.droplets.listBackupsForDroplet(dropletId)`
 - [listActionsForDroplet](https://developers.digitalocean.com/documentation/v2#list-actions-for-a-droplet)
 
-`api.droplets.listActionsForDroplet(dropletId, options)`
+`api.droplets.listActionsForDroplet(dropletId)`
 - [deleteDroplet](https://developers.digitalocean.com/documentation/v2#delete-a-droplet)
 
-`api.droplets.deleteDroplet(dropletId, options)`
+`api.droplets.deleteDroplet(dropletId)`
 - [listNeighborsForDroplet](https://developers.digitalocean.com/documentation/v2#list-neighbors-for-a-droplet)
 
 `api.droplets.listNeighborsForDroplet(options)`
@@ -130,7 +130,7 @@
 `api.dropletActions.upgradeDroplet(dropletId, options)`
 - [retrieveDropletAction](https://developers.digitalocean.com/documentation/v2#retrieve-a-droplet-action)
 
-`api.dropletActions.retrieveDropletAction(dropletId, actionId, options)`
+`api.dropletActions.retrieveDropletAction(dropletId, actionId)`
 
 ###images
 - [listAllImages](https://developers.digitalocean.com/documentation/v2#list-all-images)
@@ -138,19 +138,19 @@
 `api.images.listAllImages(options)`
 - [retrieveExistingImageById](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-image-by-id)
 
-`api.images.retrieveExistingImageById(imageId, options)`
+`api.images.retrieveExistingImageById(imageId)`
 - [retrieveExistingImageBySlug](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-image-by-slug)
 
-`api.images.retrieveExistingImageBySlug(imageSlug, options)`
+`api.images.retrieveExistingImageBySlug(imageSlug)`
 - [listAllActionsForImage](https://developers.digitalocean.com/documentation/v2#list-all-actions-for-an-image)
 
-`api.images.listAllActionsForImage(imageId, options)`
+`api.images.listAllActionsForImage(imageId)`
 - [updateImage](https://developers.digitalocean.com/documentation/v2#update-an-image)
 
 `api.images.updateImage(imageId, options)`
 - [deleteImage](https://developers.digitalocean.com/documentation/v2#delete-an-image)
 
-`api.images.deleteImage(imageId, options)`
+`api.images.deleteImage(imageId)`
 
 ###imageActions
 - [transferImage](https://developers.digitalocean.com/documentation/v2#transfer-an-image)
@@ -161,7 +161,7 @@
 `api.imageActions.convertImageToSnapshot(imageId, options)`
 - [retrieveExistingImageAction](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-image-action)
 
-`api.imageActions.retrieveExistingImageAction(imageId, imageActionId, options)`
+`api.imageActions.retrieveExistingImageAction(imageId, imageActionId)`
 
 ###sshKeys
 - [listAllKeys](https://developers.digitalocean.com/documentation/v2#list-all-keys)
@@ -172,13 +172,13 @@
 `api.sshKeys.createNewKey(options)`
 - [retrieveExistingKey](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-key)
 
-`api.sshKeys.retrieveExistingKey(keyId, options)`
+`api.sshKeys.retrieveExistingKey(keyId)`
 - [updateKey](https://developers.digitalocean.com/documentation/v2#update-a-key)
 
 `api.sshKeys.updateKey(sshKeyId, options)`
 - [destroyKey](https://developers.digitalocean.com/documentation/v2#destroy-a-key)
 
-`api.sshKeys.destroyKey(keyId, options)`
+`api.sshKeys.destroyKey(keyId)`
 
 ###regions
 - [listAllRegions](https://developers.digitalocean.com/documentation/v2#list-all-regions)
@@ -202,10 +202,10 @@
 `api.floatingIPs.createNewFloatingIPReservedToRegion(options)`
 - [retrieveExistingFloatingIP](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-floating-ip)
 
-`api.floatingIPs.retrieveExistingFloatingIP(floatingIpAddr, options)`
+`api.floatingIPs.retrieveExistingFloatingIP(floatingIpAddr)`
 - [deleteFloatingIP](https://developers.digitalocean.com/documentation/v2#delete-a-floating-ips)
 
-`api.floatingIPs.deleteFloatingIP(floatingIpAddr, options)`
+`api.floatingIPs.deleteFloatingIP(floatingIpAddr)`
 
 ###floatingIPActions
 - [assignFloatingIPToDroplet](https://developers.digitalocean.com/documentation/v2#assign-a-floating-ip-to-a-droplet)
@@ -216,7 +216,7 @@
 `api.floatingIPActions.unassignFloatingIP(floatingIpAddr, options)`
 - [listAllActionsForFloatingIP](https://developers.digitalocean.com/documentation/v2#list-all-actions-for-a-floating-ip)
 
-`api.floatingIPActions.listAllActionsForFloatingIP(floatingIp, options)`
+`api.floatingIPActions.listAllActionsForFloatingIP(floatingIp)`
 - [retrieveExistingFloatingIPAction](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-floating-ip-action)
 
-`api.floatingIPActions.retrieveExistingFloatingIPAction(floatingIp, actionId, options)`
+`api.floatingIPActions.retrieveExistingFloatingIPAction(floatingIp, actionId)`
