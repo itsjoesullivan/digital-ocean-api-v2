@@ -1,4 +1,4 @@
-var methodCategories = require('./parsed-schema');
+var methodCategories = require('parsed-digital-ocean-api-documentation');
 var factory = require('./lib/factory');
 var Helper = require('./lib/util/helper');
 
