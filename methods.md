@@ -1,4 +1,9 @@
 
+###account
+- [getUserInformation](https://developers.digitalocean.com/documentation/v2/#get-user-information)
+
+`api.account.getUserInformation()`
+
 ###actions
 - [listAllActions](https://developers.digitalocean.com/documentation/v2#list-all-actions)
 
