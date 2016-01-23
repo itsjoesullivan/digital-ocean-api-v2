@@ -1,7 +1,7 @@
 {
   "name": "digital-ocean-api-v2",
   "version": "0.2.1",
-  "description": "",
+  "description": "Digital Ocean API (v2) library",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
