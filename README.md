@@ -14,8 +14,4 @@ var api = new DigitalOceanAPI(DIGITALOCEAN_ACCESS_TOKEN);
 api.floatingIpActions.assignFloatingIpToDroplet(floatingIp, { droplet_id: 8219222 })
 ```
 
-It's in beta while function signature stuff is thought through. There are a couple things that look like typos in the documentation that probably shouldn't be reflected in the API (referer, anyone?).
-
 Each method returns a promise. For a list of methods, see [./methods.md](./methods.md)
-
-[TODOs](https://github.com/itsjoesullivan/digital-ocean-api-v2/labels/todo)
