@@ -1,6 +1,6 @@
 {
   "name": "digital-ocean-api-v2",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "description": "Digital Ocean API (v2) library",
   "main": "index.js",
   "scripts": {
