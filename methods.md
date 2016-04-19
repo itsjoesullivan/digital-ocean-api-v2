@@ -2,7 +2,7 @@
 ###account
 - [getUserInformation](https://developers.digitalocean.com/documentation/v2/#get-user-information)
 
-`api.account.getUserInformation()`
+`api.account.getUserInformation`
 
 ###actions
 - [listAllActions](https://developers.digitalocean.com/documentation/v2#list-all-actions)
@@ -56,6 +56,9 @@
 - [listAllDroplets](https://developers.digitalocean.com/documentation/v2#list-all-droplets)
 
 `api.droplets.listAllDroplets(options)`
+- [listingDropletsByTag](https://developers.digitalocean.com/documentation/v2#listing-droplets-by-tag)
+
+`api.droplets.listingDropletsByTag()`
 - [listAllAvailableKernelsForDroplet](https://developers.digitalocean.com/documentation/v2#list-all-available-kernels-for-a-droplet)
 
 `api.droplets.listAllAvailableKernelsForDroplet(dropletId)`
@@ -71,15 +74,15 @@
 - [deleteDroplet](https://developers.digitalocean.com/documentation/v2#delete-a-droplet)
 
 `api.droplets.deleteDroplet(dropletId)`
+- [deletingDropletsByTag](https://developers.digitalocean.com/documentation/v2#deleting-droplets-by-tag)
+
+`api.droplets.deletingDropletsByTag()`
 - [listNeighborsForDroplet](https://developers.digitalocean.com/documentation/v2#list-neighbors-for-a-droplet)
 
 `api.droplets.listNeighborsForDroplet(options)`
 - [listAllDropletNeighbors](https://developers.digitalocean.com/documentation/v2#list-all-droplet-neighbors)
 
 `api.droplets.listAllDropletNeighbors(options)`
-- [listDropletUpgrades](https://developers.digitalocean.com/documentation/v2#list-droplet-upgrades)
-
-`api.droplets.listDropletUpgrades(options)`
 
 ###dropletActions
 - [enableBackups](https://developers.digitalocean.com/documentation/v2#enable-backups)
@@ -130,9 +133,9 @@
 - [snapshotDroplet](https://developers.digitalocean.com/documentation/v2#snapshot-a-droplet)
 
 `api.dropletActions.snapshotDroplet(dropletId, options)`
-- [upgradeDroplet](https://developers.digitalocean.com/documentation/v2#upgrade-a-droplet)
+- [actingOnTaggedDroplets](https://developers.digitalocean.com/documentation/v2#acting-on-tagged-droplets)
 
-`api.dropletActions.upgradeDroplet(dropletId, options)`
+`api.dropletActions.actingOnTaggedDroplets(, options)`
 - [retrieveDropletAction](https://developers.digitalocean.com/documentation/v2#retrieve-a-droplet-action)
 
 `api.dropletActions.retrieveDropletAction(dropletId, actionId)`
@@ -141,15 +144,15 @@
 - [listAllImages](https://developers.digitalocean.com/documentation/v2#list-all-images)
 
 `api.images.listAllImages(options)`
+- [listAllActionsForImage](https://developers.digitalocean.com/documentation/v2#list-all-actions-for-an-image)
+
+`api.images.listAllActionsForImage(imageId)`
 - [retrieveExistingImageById](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-image-by-id)
 
 `api.images.retrieveExistingImageById(imageId)`
 - [retrieveExistingImageBySlug](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-image-by-slug)
 
 `api.images.retrieveExistingImageBySlug(imageSlug)`
-- [listAllActionsForImage](https://developers.digitalocean.com/documentation/v2#list-all-actions-for-an-image)
-
-`api.images.listAllActionsForImage(imageId)`
 - [updateImage](https://developers.digitalocean.com/documentation/v2#update-an-image)
 
 `api.images.updateImage(imageId, options)`
@@ -225,3 +228,26 @@
 - [retrieveExistingFloatingIPAction](https://developers.digitalocean.com/documentation/v2#retrieve-an-existing-floating-ip-action)
 
 `api.floatingIPActions.retrieveExistingFloatingIPAction(floatingIp, actionId)`
+
+###tags
+- [createNewTag](https://developers.digitalocean.com/documentation/v2#create-a-new-tag)
+
+`api.tags.createNewTag(options)`
+- [retrieveTag](https://developers.digitalocean.com/documentation/v2#retrieve-a-tag)
+
+`api.tags.retrieveTag(tagName)`
+- [listAllTags](https://developers.digitalocean.com/documentation/v2#list-all-tags)
+
+`api.tags.listAllTags(options)`
+- [updateTag](https://developers.digitalocean.com/documentation/v2#update-a-tag)
+
+`api.tags.updateTag(tagName, options)`
+- [tagResource](https://developers.digitalocean.com/documentation/v2#tag-a-resource)
+
+`api.tags.tagResource(tagName, options)`
+- [untagResource](https://developers.digitalocean.com/documentation/v2#untag-a-resource)
+
+`api.tags.untagResource(tagName)`
+- [deleteTag](https://developers.digitalocean.com/documentation/v2#delete-a-tag)
+
+`api.tags.deleteTag(tagName)`

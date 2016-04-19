@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "lodash": "^3.10.1",
-    "parsed-digital-ocean-api-documentation": "^2.2.0",
+    "parsed-digital-ocean-api-documentation": "^3.0.0",
     "request-promise": "^1.0.2"
   },
   "devDependencies": {
