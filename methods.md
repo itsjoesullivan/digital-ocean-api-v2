@@ -56,9 +56,9 @@
 - [listAllDroplets](https://developers.digitalocean.com/documentation/v2#list-all-droplets)
 
 `api.droplets.listAllDroplets(options)`
-- [listingDropletsByTag](https://developers.digitalocean.com/documentation/v2#listing-droplets-by-tag)
+- [listDropletsByTag](https://developers.digitalocean.com/documentation/v2#listing-droplets-by-tag)
 
-`api.droplets.listingDropletsByTag()`
+`api.droplets.listDropletsByTag()`
 - [listAllAvailableKernelsForDroplet](https://developers.digitalocean.com/documentation/v2#list-all-available-kernels-for-a-droplet)
 
 `api.droplets.listAllAvailableKernelsForDroplet(dropletId)`
@@ -133,9 +133,9 @@
 - [snapshotDroplet](https://developers.digitalocean.com/documentation/v2#snapshot-a-droplet)
 
 `api.dropletActions.snapshotDroplet(dropletId, options)`
-- [actingOnTaggedDroplets](https://developers.digitalocean.com/documentation/v2#acting-on-tagged-droplets)
+- [actOnTaggedDroplets](https://developers.digitalocean.com/documentation/v2#acting-on-tagged-droplets)
 
-`api.dropletActions.actingOnTaggedDroplets(, options)`
+`api.dropletActions.actOnTaggedDroplets(, options)`
 - [retrieveDropletAction](https://developers.digitalocean.com/documentation/v2#retrieve-a-droplet-action)
 
 `api.dropletActions.retrieveDropletAction(dropletId, actionId)`
